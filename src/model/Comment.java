@@ -10,7 +10,7 @@ package model;
  * @author salifu
  */
 public class Comment {
-    private String id;
+    private final String id;
     private enum kind{personal, group, member};
     kind thekind;
     private String comment;
