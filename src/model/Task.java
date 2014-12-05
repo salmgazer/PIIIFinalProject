@@ -28,9 +28,7 @@ public class Task {
     public  Task(String id, String thekind, String desc, String full, String added, String to_finish,
             String start, String picture, String task_type){
         this.id = id; setkind(thekind); description = desc; fulltask = full; date_added = added; 
-        date_to_finish = to_finish; start_date = start; this.picture = picture; settask(task_type);
-        
-         
+        date_to_finish = to_finish; start_date = start; this.picture = picture; settask(task_type);    
     }
     
     //ID
@@ -81,9 +79,6 @@ public class Task {
     }
     
     //Date added
-    public void added(String dateText){
-        date_added = dateText;
-    }
     public String getadded(){
         return date_added;
     }
