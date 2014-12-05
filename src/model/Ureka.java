@@ -11,16 +11,18 @@ package model;
  */
 public class Ureka {
     
-    private String id;
+    private final String id;
     private String author;
     private String thought;
     private String inspiration;
+    private final String date_added;
     
-    public Ureka(String id, String author, String thought, String inspiration){
+    public Ureka(String id, String author, String thought, String inspiration, String date_added){
         this.id = id;
         this.author = author;
         this.thought =  thought;
         this.inspiration = inspiration;
+        this.date_added = date_added;
     }
     
     //id
@@ -34,6 +36,11 @@ public class Ureka {
     }
     public String getthought(){
         return thought;
+    }
+    
+    //date_Added
+    public String getadded(){
+        return date_added;
     }
     
     //Author
