@@ -10,7 +10,7 @@ package model;
  * @author salifu
  */
 public class Location {
-    private String id;
+    private final String id;
     private String name;
     
     public Location(String id, String name){
