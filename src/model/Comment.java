@@ -24,6 +24,12 @@ public class Comment {
         
     }
     
+    //id
+    public String getid(){
+        return id;
+    }
+    
+    //kind
     public void setkind(String k){
         switch(k){
             case "group": thekind = kind.group;
