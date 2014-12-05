@@ -33,6 +33,7 @@ public class Member {
         return id;
     }
     
+    //sex
     public void setsex(String s){
         switch(s){
             case "M": thesex = sex.M;
