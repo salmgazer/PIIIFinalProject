@@ -11,12 +11,12 @@ package model;
  */
 public class Goal {
     
-    private String id;
+    private final String id;
     private enum kind{group, personal};
     kind thekind;
-    String goal;
-    String date_entered;
-    String date_to_finish;
+    private String goal;
+    private final String date_entered;
+    private String date_to_finish;
     int activity;
     
     public Goal(String id, String k, String goal, String  date_entered, String date_to_finish){
@@ -55,9 +55,6 @@ public class Goal {
     }
     
     //date_enetred
-    public void entered(String d){
-        date_entered = d;
-    }
     public String getentered(){
         return date_entered;
     }
