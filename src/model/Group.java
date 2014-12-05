@@ -11,12 +11,12 @@ package model;
  */
 public class Group {
     
-    private String id;
+    private final String id;
     private String name;
     private enum type{academic, other};
     type thetype;
     private int size;
-    private String date_formed;
+    private final String date_formed;
     private String date_closed;
     private String picture;
     
