@@ -12,10 +12,10 @@ package model;
 public class Task {
     private enum kind{personal,group};
     kind thekind;
-    private String id;
+    private final String id;
     private String description;
     private String fulltask;
-    private String date_added;
+    private final String date_added;
     private String date_to_finish;
     private String start_date;
     private String date_finished;
