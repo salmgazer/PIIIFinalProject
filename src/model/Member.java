@@ -14,7 +14,7 @@ public class Member {
     private String lastname;
     private enum sex{M, F};
     sex thesex;
-    private String id;
+    private final String id;
     private int rank;
     private String picture;
     private String nickname;
