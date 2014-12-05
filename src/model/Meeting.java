@@ -22,6 +22,11 @@ public class Meeting {
         this.attend = attend;
     }
     
+    //id
+    public String getid(){
+        return id;
+    }
+    
     //kind
     public void setkind(String k){
         switch(k){
@@ -35,6 +40,7 @@ public class Meeting {
         return thekind;
     }
     
+    //date_attended
     public void setattend(String attend){
         this.attend = attend;
     }
