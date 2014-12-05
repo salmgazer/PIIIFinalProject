@@ -20,8 +20,14 @@ public class Course {
     private String fi;
     private String picture;
     
-    public Course(){
-        
+    public Course(String id, String name, String stuyear, String theyear, String tutor, String fi, String picture){
+        this.id = id;
+        this.name = name;
+        setstuyear(stuyear);
+        this.theyear = theyear;
+        this.tutor = tutor;
+        this.fi = fi;
+        this.picture = picture;
     }
     
     //student_year
