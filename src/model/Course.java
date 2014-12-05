@@ -11,7 +11,7 @@ package model;
  */
 public class Course {
     
-    private String id;
+    private final String id;
     private String name;
     private enum student_year{freshman, sophomore, junior, senior};
     student_year stuyear;
