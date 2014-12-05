@@ -19,8 +19,13 @@ public class Goal {
     String date_to_finish;
     int activity;
     
-    public Goal(){
-        
+    public Goal(String id, String k, String goal, String  date_entered, String date_to_finish){
+        this.id = id;
+        setkind(k);
+        this.goal = goal;
+        this.date_entered = date_entered;
+        this.date_to_finish = date_to_finish;
+        activity = 0;
     }
     
     //kind
