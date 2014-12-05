@@ -11,7 +11,7 @@ package model;
  */
 public class Meeting {
     
-    private String id;
+    private final String id;
     private enum kind{academic, personal};
     kind thekind;
     String attend;
